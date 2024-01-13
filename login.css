@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    min-height: 100vh;
+    width: 100vw;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    font-family: sans-serif;
+}
+
+.left{
+   min-height: fit-content;
+    width: 50vw;
+    /* background-color: crimson; */
+    padding: 5vw;
+}
+.left-cont{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-cont ul{
+    padding: 0 2vw;
+}
+
+.left h4{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.right{
+    min-height: 100%;
+    width: 50vw;
+    /* background-color: rgb(113, 220, 20); */
+}
+
+.main-image {
+    /* height: 70vh; */
+}
+
+.main-image img{
+     /* height: 100%; */
+     width: 90%;
+     object-fit: cover;
+     border-radius: 15px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 14px;
+}
+.header p{
+  font-size: 18px;
+  display: none;
+}
+
+
+.right-cont{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 4vw;
+}
+
+.btns{
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    /* border: 1px solid black; */
+    /* padding: 3px; */
+    border-radius: 10px;
+    background-color: #F7F7F8;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+
+}
+.btns button{
+    width: 50%;
+    border: none;
+    padding: 10px;
+    border-radius: inherit;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+
+
+
+}
+
+
+
+#payPal{
+    background-color: #9a9a9a81;
+}
+
+input{
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(159, 157, 157, 0.694);
+    text-align: center;
+    width: 88%;
+    background-color: #ffffff5f;
+
+}
+
+label input{
+     margin-top: 10px;
+}
+
+label{
+    font-weight: 600;
+}
+
+.billDetsP{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+.billDetsH{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 15px; */
+    /* margin-top: 30px; */
+}
+
+.payBtn{
+   
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 30px;
+
+
+}
+
+.payBtn button{
+    width: 90%;
+    padding: 15px;
+    background-color: #B7A3F5;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+  
+}
+.privacy{
+    text-align: center;
+    padding: 15px;
+    background-color: #f2f4f7;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.privacy i{
+    margin-right: 10px;
+    color: #686868;
+}

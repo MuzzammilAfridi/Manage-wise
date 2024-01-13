@@ -1,0 +1,51 @@
+
+.side{
+    width: 200px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: rgba(0, 128, 0, 0.082);
+    padding-left: 50px;
+    padding-top: 30px;
+   
+    
+}
+.side ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /* align-items: end; */
+    justify-content: flex-start;
+}
+
+@media (max-width : 600px) {
+   
+    .page7 {
+        margin-top: 30px;
+    }
+
+    .box-cont7{
+        min-height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+
+    .box7{
+        height: 75vh;
+        width: 80%;
+        background-color: #EDEDFA;
+        /* padding: 3vw; */
+        border-radius: 15px;
+        margin-top: 30px;
+       
+    }
+    
+    .hide {
+        display: none;
+    }
+}
